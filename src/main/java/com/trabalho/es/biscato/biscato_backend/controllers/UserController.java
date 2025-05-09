@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("biscato/api/v1/users")
 @CrossOrigin(origins = "*")
 public class UserController {
 
